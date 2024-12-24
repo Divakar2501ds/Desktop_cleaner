@@ -1,7 +1,5 @@
 import os 
 import shutil
-
-
 def create_subfolder_if_needed(folder_path,subfolder_name):
     subfolder_path=os.path.join(folder_path , subfolder_name)
     if not os.path.exists(subfolder_path):
